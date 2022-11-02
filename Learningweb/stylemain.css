@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto';
+}
 nav{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+/*Starts menu*/
 #logo{
     width: 50px;
     height: 50px;
@@ -36,7 +40,7 @@ nav{
     display: flex;
     flex-direction: row;
     margin-left: 10px;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 50px;
     justify-content: space-between;
     height: 50px;
@@ -56,14 +60,12 @@ a:hover{
 color: rgb(100, 115, 253);
 }
 
-
+/*Finish menu part*/
 body{
     background-image: url(src/back1.jpg);
     background-size: 1350px;
-  width: 100%;
-  
-  
-
+    width: 100%;
+    margin: 0px;
 }
 .info{
     margin-top: 80px;
@@ -72,7 +74,7 @@ body{
     width: 100%;
     text-align: center;
     font-family: 'Roboto';
-    color: aliceblue;
+    color: white;
 }
 #btn{
     display: flex;
@@ -88,9 +90,10 @@ body{
 }
 
 #btn:hover{
+    opacity:0.8;
     letter-spacing: 0.08rem;
 }
-
+/*Boxes section*/
 section{
     display: flex;
     flex-direction: row;
@@ -99,7 +102,7 @@ section{
 .options{
     margin-top: 50px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: white;
     margin: 30px;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
@@ -124,3 +127,128 @@ figure{
     height: 50px;
     width: 50px;
 }
+/*Course info section*/
+.courses{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    font-family: 'Roboto';
+
+}
+#course{
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 80px;
+
+}
+#titleCourses{
+    padding: 20px;
+}
+#courseImage, #courses{
+    width: 600px;
+    height: 400px;
+    justify-content: flex-end;
+}
+#btnCourses{
+    justify-content: center;
+    background-color: rgb(5, 5, 65);
+    border-radius: 15px;
+    padding: 10px;
+    width: 25%;
+    margin: auto;
+    color: aliceblue;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
+    transition: 0.2s;
+
+}
+#btnCourses:hover{
+    opacity:0.8;
+    letter-spacing: 0.08rem;
+}
+/* ends course info section*/
+/*Book info section*/
+.book{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    height: 650px;
+}
+#reading{
+    height: 500px;
+    width: 500px;
+    align-items: center;
+}
+.bookImage{
+    height: 500px;
+    width: 500px;
+}
+.bookText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#btnBook{
+    justify-content: center;
+    background-color: rgb(5, 5, 65);
+    border-radius: 15px;
+    padding: 10px;
+    width: 25%;
+    color: aliceblue;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
+    transition: 0.2s;   
+}
+#btnBook:hover{
+    opacity:0.8;
+    letter-spacing: 0.08rem;
+}
+/* Ends book info section*/
+/*Contact info section*/
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 600px;
+}
+.contactText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+#btnContact{
+    justify-content: center;
+    background-color: rgb(5, 5, 65);
+    border-radius: 15px;
+    padding: 10px;
+    width: 25%;
+    color: aliceblue;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
+    transition: 0.2s;   
+}
+#btnContact:hover{
+    opacity:0.8;
+    letter-spacing: 0.08rem;
+}
+#imageContact{
+    height: 500px;
+    width: 500px;
+}
+.imageContact{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    margin: 0%;
+}
+/*Contact info section*/
