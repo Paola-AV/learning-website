@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+    font-size: 16px;
+}
 *{
     font-family: 'Roboto';
+}
+body{
+    margin: 0%;
 }
 nav{
     display: flex;
@@ -9,26 +15,26 @@ nav{
 }
 /*Starts menu*/
 #logo{
-    width: 50px;
-    height: 50px;
+    width: 80%;
+    height: 80%;
 }
 #Title{
     align-items: center;
-    font-size: 21px;
+    font-size: 1.5rem;
 }
 .header{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin: 10px;
+    margin: 1rem;
     align-items: center;
     font-family: 'Roboto';
-    height: 50px;
-    font-size: 17px;
+    height: 3rem;
+    font-size: 1rem;
 }
 .menu{
     display: flex;
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 
 li{
@@ -39,36 +45,38 @@ li{
 nav{
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 1rem;
     background-color: white;
     border-radius: 50px;
     justify-content: space-between;
-    height: 50px;
+    height: 3rem;
     
 }
 a{
     display: flex;
     
     justify-content: flex-end;
-    font-size: 17px;
+    font-size: 1rem;
     font-family: 'Roboto';
     text-decoration: none;
     color: black;
-    margin-right: 20px;
+    margin-right: 1.3rem;
 }
 a:hover{
 color: rgb(100, 115, 253);
 }
 
+
 /*Finish menu part*/
-body{
+#information{
     background-image: url(src/back1.jpg);
-    background-size: 1350px;
+    background-size: 100%;
     width: 100%;
     margin: 0px;
 }
+
 .info{
-    margin-top: 80px;
+    margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -81,11 +89,11 @@ body{
     justify-content: center;
     background-color: rgb(5, 5, 65);
     border-radius: 50px;
-    padding: 15px;
+    padding: 1rem;
     width: 10%;
     margin: auto;
     color: aliceblue;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.315), 0 0.4rem 1.3rem 0 rgba(0, 0, 0, 0.281);
     transition: 0.2s;
 }
 
@@ -94,28 +102,28 @@ body{
     letter-spacing: 0.08rem;
 }
 /*Boxes section*/
-section{
+#optionBoxes{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .options{
-    margin-top: 50px;
+    margin-top: 3.25rem;
     text-align: center;
     background-color: white;
-    margin: 30px;
+    margin: 2rem;
     border-radius: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.315), 0 0.4rem 1.3rem 0 rgba(0, 0, 0, 0.281);
     font-family: 'Roboto';
-    padding: 10px;
+    padding: 0.7rem;
 }
 figure{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(129, 129, 247);
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     border-radius: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -123,18 +131,18 @@ figure{
 
 }
 .icon{
-    margin-top: 15px;
-    height: 50px;
-    width: 50px;
+    margin-top: 1rem;
+    height: 3rem;
+    width: 3rem;
 }
 /*Course info section*/
 .courses{
-    margin-top: 80px;
+    margin-top: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
     font-family: 'Roboto';
 
@@ -142,28 +150,27 @@ figure{
 #course{
     justify-content: flex-start;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 5rem;
 
 }
 #titleCourses{
-    padding: 20px;
+    padding: 1.25rem;
 }
 #courseImage, #courses{
-    width: 600px;
-    height: 400px;
+    width: 37.5rem;
+    height: 25rem;
     justify-content: flex-end;
 }
 #btnCourses{
     justify-content: center;
     background-color: rgb(5, 5, 65);
     border-radius: 15px;
-    padding: 10px;
+    padding: 0.62rem;
     width: 25%;
     margin: auto;
     color: aliceblue;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.315), 0 0.4rem 1.3rem 0 rgba(0, 0, 0, 0.281);
     transition: 0.2s;
-
 }
 #btnCourses:hover{
     opacity:0.8;
@@ -177,16 +184,16 @@ figure{
     justify-content: space-between;
     width: 100%;
     background-color: white;
-    height: 650px;
+    height: 40.62rem;
 }
 #reading{
-    height: 500px;
-    width: 500px;
+    height: 31.25rem;
+    width: 31.25rem;
     align-items: center;
 }
 .bookImage{
-    height: 500px;
-    width: 500px;
+    height: 31.25rem;
+    width: 31.25rem;
 }
 .bookText{
     display: flex;
@@ -199,10 +206,10 @@ figure{
     justify-content: center;
     background-color: rgb(5, 5, 65);
     border-radius: 15px;
-    padding: 10px;
+    padding: 0.625rem;
     width: 25%;
     color: aliceblue;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.315), 0 0.4rem 1.3rem 0 rgba(0, 0, 0, 0.281);
     transition: 0.2s;   
 }
 #btnBook:hover{
@@ -211,14 +218,15 @@ figure{
 }
 /* Ends book info section*/
 /*Contact info section*/
-.contact{
+#contactBox{
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: white;
     width: 100%;
-    height: 600px;
+    height: 37.5rem;
 }
+
 .contactText{
     display: flex;
     flex-direction: column;
@@ -231,10 +239,10 @@ figure{
     justify-content: center;
     background-color: rgb(5, 5, 65);
     border-radius: 15px;
-    padding: 10px;
+    padding: 0.625rem;
     width: 25%;
     color: aliceblue;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.315), 0 6px 20px 0 rgba(0, 0, 0, 0.281);
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.315), 0 0.4rem 1.3rem 0 rgba(0, 0, 0, 0.281);
     transition: 0.2s;   
 }
 #btnContact:hover{
@@ -242,12 +250,12 @@ figure{
     letter-spacing: 0.08rem;
 }
 #imageContact{
-    height: 500px;
-    width: 500px;
+    height: 31.25rem;
+    width: 31.25rem;
 }
 .imageContact{
-    height: 500px;
-    width: 500px;
+    height: 31.25rem;
+    width: 31.25rem;
     background-color: white;
     margin: 0%;
 }
